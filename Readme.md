@@ -28,6 +28,7 @@ object, or you may call the API directly using the `cmd` method.
 ### Create client
 ```js
 // all config options are optional
+var node_3dcoin = require('3dcoin');
 var client = new node_3dcoin.Client({
   host: 'localhost',
   port: 'port',
