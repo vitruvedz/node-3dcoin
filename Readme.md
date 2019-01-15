@@ -15,7 +15,7 @@
 
 node-3dcoin is a simple wrapper for the 3dcoin client's JSON-RPC API.
 
-The API is equivalent to the API document [here](https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_Calls_list).
+The API is equivalent to the API document [here](https://3dcoin.wiki/wiki/api-calls-list).
 The methods are exposed as lower camelcase methods on the `3dcoin.Client`
 object, or you may call the API directly using the `cmd` method.
 
