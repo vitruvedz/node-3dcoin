@@ -1,10 +1,10 @@
 {
-  "name": "bitcoin",
-  "description": "Communicate with bitcoind via JSON-RPC",
-  "version": "3.0.1",
+  "name": "3dcoin",
+  "description": "Communicate with 3dcoind via JSON-RPC",
+  "version": "3.0.2",
   "main": "lib/index.js",
   "keywords": [
-    "bitcoin",
+    "3dcoin",
     "rpc"
   ],
   "author": "Bill Casarin <bill@casarin.ca> (jb55.com)",
@@ -20,21 +20,11 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/freewil/node-bitcoin.git"
+    "url": "git://github.com/vitruvedz/node-3dcoin.git"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "scripts": {
-    "pretest": "standard --verbose",
-    "test": "make test"
-  },
-  "bugs": {
-    "url": "https://github.com/freewil/node-bitcoin/issues"
-  },
-  "homepage": "https://github.com/freewil/node-bitcoin#readme",
-  "directories": {
-    "test": "test"
-  },
+  "homepage": "https://github.com/vitruvedz/node-3dcoin#readme",
   "license": "Unlicense"
 }
