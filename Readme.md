@@ -73,27 +73,3 @@ client.cmd(batch, function(err, address, resHeaders) {
 });
 ```
 
-## SSL
-See [Enabling SSL on original client](https://en.bitcoin.it/wiki/Enabling_SSL_on_original_client_daemon).
-
-If you're using this to connect to bitcoind across a network it is highly
-recommended to enable `ssl`, otherwise an attacker may intercept your RPC credentials
-resulting in theft of your bitcoins.
-
-When enabling `ssl` by setting the configuration option to `true`, the `sslStrict`
-option (verifies the server certificate) will also be enabled by default. It is
-highly recommended to specify the `sslCa` as well, even if your bitcoind has
-a certificate signed by an actual CA, to ensure you are connecting
-to your own bitcoind.
-
-```js
-var client = new bitcoin.Client({
-  host: 'localhost',
-  port: 'port',
-  user: 'username',
-  pass: 'password',
-  ssl: true,
-  sslStrict: true,
-  sslCa: fs.readFileSync(__dirname + '/myca.cert')
-});
-```
