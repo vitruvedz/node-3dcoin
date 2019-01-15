@@ -1,6 +1,3 @@
 node_modules/
 test/
 .project
-.gitmodules
-.travis.yml
-Dockerfile
