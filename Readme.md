@@ -1,17 +1,14 @@
 # node-3dcoin
-[![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
 [![js-standard-style][standard-image]][standard-url]
 
-[travis-image]: https://travis-ci.org/freewil/node-bitcoin.svg?branch=master
-[travis-url]: https://travis-ci.org/freewil/node-bitcoin
 
-[npm-image]: https://img.shields.io/npm/v/bitcoin.svg?style=flat
-[npm-url]: https://npmjs.org/package/bitcoin
+[npm-image]: https://img.shields.io/npm/v/3dcoin.svg?style=flat
+[npm-url]: https://npmjs.org/package/3dcoin
 
-[downloads-image]: https://img.shields.io/npm/dm/bitcoin.svg?style=flat
-[downloads-url]: https://npmjs.org/package/bitcoin
+[downloads-image]: https://img.shields.io/npm/dm/3dcoin.svg?style=flat
+[downloads-url]: https://npmjs.org/package/3dcoin
 
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: http://standardjs.com
@@ -24,7 +21,7 @@ object, or you may call the API directly using the `cmd` method.
 
 ## Install
 
-`Soon  ..............`
+`npm i 3dcoin`
 
 ## Examples
 
