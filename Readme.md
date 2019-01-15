@@ -24,7 +24,7 @@ object, or you may call the API directly using the `cmd` method.
 
 ## Install
 
-`npm install 3dcoin`
+`Soon  ..............`
 
 ## Examples
 
