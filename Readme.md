@@ -24,7 +24,7 @@ object, or you may call the API directly using the `cmd` method.
 
 ## Install
 
-`npm install bitcoin`
+`npm install 3dcoin`
 
 ## Examples
 
@@ -89,7 +89,7 @@ to your own bitcoind.
 ```js
 var client = new bitcoin.Client({
   host: 'localhost',
-  port: 8332,
+  port: 'port',
   user: 'username',
   pass: 'password',
   ssl: true,
