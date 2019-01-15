@@ -1,4 +1,4 @@
-# node-bitcoin
+# node-3dcoin
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
@@ -16,9 +16,7 @@
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: http://standardjs.com
 
-node-bitcoin is a simple wrapper for the Bitcoin client's JSON-RPC API.
-
-**Unmaintained, please see [bitcoin-core](https://github.com/ruimarinho/bitcoin-core)**
+node-3dcoin is a simple wrapper for the 3dcoin client's JSON-RPC API.
 
 The API is equivalent to the API document [here](https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_Calls_list).
 The methods are exposed as lower camelcase methods on the `bitcoin.Client`
@@ -33,9 +31,9 @@ object, or you may call the API directly using the `cmd` method.
 ### Create client
 ```js
 // all config options are optional
-var client = new bitcoin.Client({
+var client = new node_3dcoin.Client({
   host: 'localhost',
-  port: 8332,
+  port: 'port',
   user: 'username',
   pass: 'password',
   timeout: 30000
