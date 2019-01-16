@@ -1,7 +1,7 @@
 {
   "name": "3dcoin",
   "description": "Communicate with 3dcoind via JSON-RPC",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "main": "lib/index.js",
   "keywords": [
     "3dcoin",
@@ -9,7 +9,8 @@
   ],
   "author": "Bill Casarin <bill@casarin.ca> (jb55.com)",
   "contributors": [
-    "Sean Lavine <sean@eternalrise.com>"
+    "Sean Lavine <sean@eternalrise.com>",
+    "Slimani Badreddine <slimani-badredine@hotmail.com>"
   ],
   "dependencies": {},
   "devDependencies": {
